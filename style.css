@@ -1,0 +1,368 @@
+/* Global Styling */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, a, button {
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 750;
+}
+
+/* Main Header */
+
+header{
+	background-image: url("./images/background.png");
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#main-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	width: 10%;
+}
+
+.navLink {
+	list-style: none;
+	position: relative;
+}
+
+.navLink li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.navLink li a {
+	transition: all 0.3s ease 0s;
+}
+
+.navLink a:hover {
+	text-decoration: underline;
+}
+
+#main-heading-button {
+	padding: 9px 25px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+#main-heading-button:hover {
+	color: rgba(173,216,230 ,1 );
+}
+
+/* Bottom Header */
+
+#bottom-header {
+	text-align: center;
+}
+
+#header-title {
+	width: 50%;
+	margin: -5% 0;
+
+}
+
+#header-paragraph {
+	font-family: "Times New Roman", sans-serif;
+	color: #fff;
+	font-size: 24px;
+	width: 50%;
+	margin: 0 25%;
+}
+
+#bottom-header-box{
+	flex-flow: all;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#button-heading{
+	padding: 9px 25px;
+	background-color: rgba(255, 0, 177, 1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	border-bottom: black 2px solid;
+	font-weight: 750;
+	margin: 3.5% 2.5% 10% 0;
+	padding: 1% 5%;
+}
+
+#button-heading2{
+	padding: 9px 25px;
+	background-color: rgba(1, 252, 247, 1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	border-bottom: black 2px solid;
+	font-weight: 750;
+	margin: 3.5% 0 10% 2.5%;
+	padding: 1% 5%;
+}
+
+#button-heading:hover {
+	color: rgba(173,216,230 ,1);
+}
+
+#button-heading2:hover {
+	color: rgba(255, 76, 76, 1);
+}
+
+/* Section 1 */
+
+section {
+	background-image: url("./images/section-background.png");
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#section1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7.5% 5%;
+}
+
+#section1-title {
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	margin: 0 0 5% 0;
+}
+
+#section1-text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+#section1-image {
+	width: 50%;
+}
+
+/* Section 2 */
+
+#section2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7.5% 5%;
+}
+
+#section2-title {
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	margin: 0 0 5% 0;
+}
+
+#section2-text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+#section2-image {
+	width: 50%;
+}
+
+/* Section 3 */
+
+#section3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7.5% 5%;
+}
+
+#section3-title {
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	margin: 0 0 5% 0;
+}
+
+#section3-text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 5% 0;
+}
+
+#section3-image {
+	width: 40%;
+	margin: 0 0 0 7%;
+}
+
+#section3-button {
+	padding: 9px 25px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin: 0 0 0 30%;
+}
+
+#section3-button:hover {
+	color: rgba(173,216,230 ,1 );
+}
+
+/* Section 4 */
+
+#section4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7.5% 5% 2.5% 5%;
+}
+
+#section4-title {
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	margin: 0 0 5% 0;
+}
+
+#section4-text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+#section4-image {
+	width: 50%;
+	margin: 0 5% 0 0;
+}
+
+#section4-button {
+	padding: 9px 25px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin: 5% 5% 0 5%;
+}
+
+#section4-button2 {
+	padding: 9px 25px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin: 5% 0 0 0;
+}
+
+#section4-button:hover {
+	color: rgba(173,216,230 ,1 );
+}
+
+#section4-button2:hover {
+	color: rgba(173,216,230 ,1 );
+}
+
+/* Section 5 */
+
+#section5 {
+	display: all;
+	justify-content: center;
+	align-items: center;
+	padding: 0 35% 4.8% 35%;
+}
+
+#section5-text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+#section5-button {
+	padding: 9px 50px;
+	background-color: rgba(255,255,255,1);
+	color: black;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin:7.5% 0 0 30%;
+}
+
+#section5-button:hover {
+	color: rgba(173,216,230 ,1 );
+}
+
+/* Footer */
+
+footer {
+	background-color: #222;
+	text-align: center;
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 5% 0;
+}
+
+#footer-text {
+	font-size: 28px;
+	color: #fff;
+}
+
+#footer-text2 {
+	font-size: 28px;
+	color: #ff0000;
+}
+
+#hr-footer {
+	width: 75%;
+	margin: 2.5% 12.5%;
+}
+
+#discord-footer {
+	width: 5%;
+	display: fixed;
+	margin: 0 2.5% 0 0;
+}
+
+#twitter-footer {
+	width: 5%;
+	display: fixed;
+	margin: 0 2.5% 0 0;
+}
+
+#twitch-footer {
+	width: 5%;
+	display: fixed;
+	margin: 0 2.5% 0 0;
+}
+
+#youtube-footer {
+	width: 5%;
+	display: fixed;
+}
+
+/* Website is done pog */
